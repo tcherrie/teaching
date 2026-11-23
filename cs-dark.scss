@@ -1,0 +1,14 @@
+/*-- scss:defaults --*/
+// Charte graphique CS : TODO
+$ensta-bleu: #3746FF;
+$ensta-nuit: #190F3C;
+$ensta-corail: #FF808B;
+$ensta-bleu-clair: #9BA3FF;
+$ensta-corail-fonce: #D6455A;
+
+// Une couleur par type d'encadré
+$callout-color-note: $ensta-bleu;            // remarques, rappels, « pour info »
+$callout-color-tip: $ensta-corail;           // analogies avec le ressort
+$callout-color-important: #C9CEFF;           // définitions (bleu nuit illisible sur fond sombre)
+$callout-color-warning: $ensta-corail-fonce; // hypothèses, mises en garde
+$callout-color-caution: $ensta-bleu-clair;   // exercices (énoncé, correction)

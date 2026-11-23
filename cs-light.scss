@@ -1,0 +1,22 @@
+/*-- scss:defaults --*/
+// Charte graphique CS : TODO
+$ensta-bleu: #3746FF;
+$ensta-nuit: #190F3C;
+$ensta-corail: #FF808B;
+$ensta-bleu-clair: #9BA3FF;
+$ensta-corail-fonce: #D6455A;
+
+// Fond blanc cassé chaud (corail très dilué), moins éblouissant que le blanc pur
+$body-bg: #FBF8F5;
+
+// Une couleur par type d'encadré
+$callout-color-note: $ensta-bleu;            // remarques, rappels, « pour info »
+$callout-color-tip: $ensta-corail;           // analogies avec le ressort
+$callout-color-important: $ensta-nuit;       // définitions et résultats clés
+$callout-color-warning: $ensta-corail-fonce; // hypothèses, mises en garde
+$callout-color-caution: $ensta-bleu-clair;   // exercices (énoncé, correction)
+
+/*-- scss:rules --*/
+// Les figures Plotly prennent la couleur du fond de page (thème clair seulement)
+.js-plotly-plot .main-svg { background: transparent !important; }
+.js-plotly-plot .bg { fill: transparent !important; }

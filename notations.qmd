@@ -1,0 +1,15 @@
+::: {.content-hidden} 
+<!-- pour cacher le contenu -->
+<!-- Commentaires VSCode : ctrl + : -->
+$$
+\usepackage{siunitx}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{dsfont}
+\newcommand{\llbracket}{\[\!\[}
+\newcommand{\rrbracket}{\]\!\]}
+$$
+:::
+
+totototooto

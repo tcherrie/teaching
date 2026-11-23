@@ -1,0 +1,38 @@
+---
+title: "Teaching"
+#jupyter: python3
+format:
+  html: 
+    default
+#    resources:
+#      - "notes/elasticite_2026_10_22.pdf"
+#      - "notes/elasticite_2026_11_06.pdf"
+#      - "notes/elasticite_2026_11_20.pdf"
+  pdf:
+    output-file: nom_du_cours.pdf
+---
+
+
+```{python}
+#| label: setup # pour référencer le code et le citer dans le texte
+#| echo: false  # code pas montré par défaut, juste la figure produite.
+
+# plotly interactif par rapport à Matplotlib
+
+# Charte graphique ENSTA : bleu ENSTA, corail, bleu nuit, bleu ENSTA clair
+COULEURS = ["#3746ff", "#ff808b", "#190f3c", "#9ba2ff"]
+CORAIL_FONCE = "#d6455a"
+```
+
+::: {.content-visible when-format="pdf"}
+*Version en ligne du cours et autres ressources : <https://tcherrie.github.io/>.*
+:::
+
+
+# Séance 1 — Loi de comportement, élasticité linéaire isotrope et thermoélasticité {#sec-seance1}
+
+{{< include notations.qmd >}}
+tot tata 
+$$\llbracket$$ tioti
+
+{{< include seances/seance1.qmd >}}

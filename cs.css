@@ -1,0 +1,23 @@
+/* Charte graphique CS : TODO */
+body.quarto-light h1, body.quarto-light h2, body.quarto-light h3,
+body.quarto-light h4, body.quarto-light .title { color: #190f3c; }
+body.quarto-light h1.title, body.quarto-light h1 { border-bottom-color: #3746ff; }
+body.quarto-light .subtitle { color: #3746ff; }
+body.quarto-light a { color: #3746ff; }
+body.quarto-light a:hover { color: #ff808b; }
+body.quarto-light #TOC .nav-link.active,
+body.quarto-light .sidebar nav[role=doc-toc] ul > li > a.active { color: #3746ff; border-left-color: #3746ff; }
+body.quarto-dark a { color: #9ba2ff; }
+body.quarto-dark a:hover { color: #ff808b; }
+body.quarto-dark .subtitle { color: #9ba2ff; }
+
+/* Figure flottante à droite, le texte l'entoure (écran large seulement) */
+@media (min-width: 768px) {
+  .figure-flottante, div.quarto-float:has(.figure-flottante), #fig-contraintes {
+    float: right; width: 42%; max-width: 440px; margin: 0 0 1rem 1.5rem;
+  }
+}
+/* Les encadrés passent toujours sous une figure flottante (pas de chevauchement) */
+.callout { clear: both; }
+/* Une figure flottante placée DANS un encadré reste contenue dans l'encadré */
+.callout-body-container, .callout-body { display: flow-root; }
