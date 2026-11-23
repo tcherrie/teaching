@@ -1,0 +1,12 @@
+{
+  "hash": "f8d1505dd38f857e9fcb2f5228e9db05",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Teaching\"\n#jupyter: python3\nformat:\n  html: \n    default\n#    resources:\n#      - \"notes/elasticite_2026_10_22.pdf\"\n#      - \"notes/elasticite_2026_11_06.pdf\"\n#      - \"notes/elasticite_2026_11_20.pdf\"\n  pdf:\n    output-file: nom_du_cours.pdf\n---\n\n\n\n::: {.content-visible when-format=\"pdf\"}\n*Version en ligne du cours et autres ressources : <https://tcherrie.github.io/>.*\n:::\n\n\n# Séance 1 — Loi de comportement, élasticité linéaire isotrope et thermoélasticité {#sec-seance1}\n\n\n::: {.content-hidden} \n<!-- pour cacher le contenu -->\n<!-- Commentaires VSCode : ctrl + : -->\n$$\n\\usepackage{siunitx}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb}\n\\usepackage{amsmath}\n\\usepackage{dsfont}\n\\newcommand{\\llbracket}{\\[\\!\\[}\n\\newcommand{\\rrbracket}{\\]\\!\\]}\n$$\n:::\n\ntotototooto\n\n\ntot tata \n$$\\llbracket$$ tioti\n\n\n# Dérivées de forme\n\n## Fonctions\n\n$$\nF = \\llbracket \\int_\\Omega f \\, \\mathrm d x \\rrbracket\n$$\n<!-- $$ signifie qu'on passe en Latex -->\n\n\n## Dérivée\n\nCoucou\n\n\n:::{.callout-caution collapse=\"true\" icon=\"false\"}\n### toto\n$$\nF' = \\frac{dF}{dx}\n$$ \n\n:::\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
